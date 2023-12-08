@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background-color: white;
+    padding: 40px; /* Increased padding */
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 30%; /* Set width relative to the viewport */
+    max-width: 400px; /* Maximum width */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px; /* More space below the title */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px; /* Increased padding for input */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 12px; /* Increased padding for button */
+    border: none;
+    border-radius: 4px;
+    background-color: #5cb85c;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px; /* Space above the button */
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .login-container {
+        width: 80%; /* Larger width on smaller screens */
+        padding: 20px;
+    }
+}
